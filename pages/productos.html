@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- agregas las 3 etiquetas meta -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Panaderia Cocu</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              src="../img/cocu_logo-450.png"
+              alt="logo panaderia cocu"
+              width="90px"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactos.html">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container my-4">
+      <h1 class="display-1 text-center">Lista de productos</h1>
+      <hr />
+      <!-- grilla de productos -->
+      <section class="row">
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/productos/Croissant_00018_portfolio1.jpg"
+              class="card-img-top"
+              alt="Medialuna"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Medialuna <span class="badge rounded-pill text-bg-warning">Nuevo</span></h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#modalProducto"
+              >
+                Ver mas
+              </button>
+
+              <!-- el codigo debajo no es correcto -->
+              <!-- <a href="">
+                        <button class="btn btn-primary">ver mas</button>
+                      </a> -->
+            </div>
+          </article>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/productos/Brioche-larga-oscura_00059_portfolio1.jpg"
+              class="card-img-top"
+              alt="Pan Brioche"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pan Brioche</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="./productoPanBrioche.html" class="btn btn-primary">Ver mas</a>
+              <!-- el codigo debajo no es correcto -->
+              <!-- <a href="">
+                        <button class="btn btn-primary">ver mas</button>
+                      </a> -->
+            </div>
+          </article>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/productos/Eclair_00118_portfolio1.jpg"
+              class="card-img-top"
+              alt="Eclair"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Eclair</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="./error404.html" class="btn btn-primary disabled"
+                >Ver mas</a
+              >
+              <!-- <button class="btn btn-primary" disabled>ver mas</button> -->
+              <!-- el codigo debajo no es correcto -->
+              <!-- <a href="">
+                        <button class="btn btn-primary">ver mas</button>
+                      </a> -->
+            </div>
+          </article>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/productos/Croissant_00018_portfolio1.jpg"
+              class="card-img-top"
+              alt="Medialuna"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Medialuna</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="./error404.html" class="btn btn-primary">Ver mas</a>
+              <!-- el codigo debajo no es correcto -->
+              <!-- <a href="">
+                        <button class="btn btn-primary">ver mas</button>
+                      </a> -->
+            </div>
+          </article>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/productos/Croissant_00018_portfolio1.jpg"
+              class="card-img-top"
+              alt="Medialuna"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Medialuna</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="./error404.html" class="btn btn-primary">Ver mas</a>
+              <!-- el codigo debajo no es correcto -->
+              <!-- <a href="">
+                        <button class="btn btn-primary">ver mas</button>
+                      </a> -->
+            </div>
+          </article>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/productos/Croissant_00018_portfolio1.jpg"
+              class="card-img-top"
+              alt="Medialuna"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Medialuna</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="./error404.html" class="btn btn-primary">Ver mas</a>
+              <!-- el codigo debajo no es correcto -->
+              <!-- <a href="">
+                        <button class="btn btn-primary">ver mas</button>
+                      </a> -->
+            </div>
+          </article>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/productos/Croissant_00018_portfolio1.jpg"
+              class="card-img-top"
+              alt="Medialuna"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Medialuna</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="./error404.html" class="btn btn-primary">Ver mas</a>
+              <!-- el codigo debajo no es correcto -->
+              <!-- <a href="">
+                        <button class="btn btn-primary">ver mas</button>
+                      </a> -->
+            </div>
+          </article>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/productos/Croissant_00018_portfolio1.jpg"
+              class="card-img-top"
+              alt="Medialuna"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Medialuna</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="./error404.html" class="btn btn-primary">Ver mas</a>
+              <!-- el codigo debajo no es correcto -->
+              <!-- <a href="">
+                        <button class="btn btn-primary">ver mas</button>
+                      </a> -->
+            </div>
+          </article>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/productos/Croissant_00018_portfolio1.jpg"
+              class="card-img-top"
+              alt="Medialuna"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Medialuna</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="./error404.html" class="btn btn-primary">Ver mas</a>
+              <!-- el codigo debajo no es correcto -->
+              <!-- <a href="">
+                        <button class="btn btn-primary">ver mas</button>
+                      </a> -->
+            </div>
+          </article>
+        </aside>
+        <aside class="col-md-6 col-lg-3 mb-3">
+          <article class="card">
+            <img
+              src="../img/productos/Croissant_00018_portfolio1.jpg"
+              class="card-img-top"
+              alt="Medialuna"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Medialuna</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="./error404.html" class="btn btn-primary">Ver mas</a>
+              <!-- el codigo debajo no es correcto -->
+              <!-- <a href="">
+                        <button class="btn btn-primary">ver mas</button>
+                      </a> -->
+            </div>
+          </article>
+        </aside>
+      </section>
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item">
+            <a class="page-link" href="error404.html" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="productos.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="error404.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="error404.html">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="error404.html" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- modal de la medialuna -->
+      <section
+        class="modal fade"
+        id="modalProducto"
+        tabindex="-1"
+        aria-labelledby="modalProductoLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title fs-5" id="modalProductoLabel">
+                Medialuna
+              </h2>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <!-- <button class="btn btn-danger" data-bs-dismiss="modal">cerrar modal</button> -->
+              <img
+                src="../img/productos/Croissant_00018_portfolio1.jpg"
+                alt="Medialuna"
+                class="mb-3 w-100"
+              />
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Consequuntur alias odit tempora! Tempore minima, sequi
+                laboriosam aut quae incidunt earum nemo eveniet voluptatibus,
+                deserunt repellat neque vitae illo. Corrupti laudantium nesciunt
+                aliquam optio suscipit adipisci et consequuntur perferendis
+                cupiditate, sed incidunt quos beatae aperiam ducimus.
+              </p>
+              <p>Precio: <b>$500</b></p>
+              <p>Precio: <strong>$500</strong></p>
+              <p>Precio: <span class="fw-bold">$500</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-secondary py-4">
+      <section class="container">
+        <article class="row">
+          <aside class="col-12 col-md-4 text-center">
+            <img
+              src="../img/cocu_logo-450.png"
+              alt="Logo panaderia cocu"
+              width="90px"
+            />
+          </aside>
+          <aside class="col-12 col-md-4">
+            <h5>Horarios de atención</h5>
+            <ul>
+              <li>Lunes a viernes de 8 a 21hs</li>
+              <li>Sabado de 8 a 20hs</li>
+            </ul>
+          </aside>
+          <aside class="col-12 col-md-4">
+            <h5>Seguinos en nuestras redes</h5>
+            <div class="text-center text-md-start">
+              <a href="error404.html" class="text-secondary fs-4"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="error404.html" class="text-secondary fs-4 mx-2"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="error404.html" class="text-secondary fs-4"
+                ><i class="bi bi-whatsapp"></i
+              ></a>
+            </div>
+          </aside>
+        </article>
+      </section>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
